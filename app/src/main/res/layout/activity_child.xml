@@ -1,0 +1,67 @@
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/MaCouleurDeFond"
+    tools:context=".MainActivity" 
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textSize="22sp"
+        android:text="@string/txtAccueilChild" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/TextViewTitreMotSource"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="12sp"
+            android:layout_weight="1"
+            android:text="@string/txt_Titre1Child"
+            android:textColor="@color/MaCouleurPreferee"
+            android:textSize="20sp" />
+    </LinearLayout>
+ 
+ 	 <LinearLayout
+         android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:gravity="center_vertical"
+		 android:orientation="vertical" >
+	<EditText
+          android:id="@+id/mot_edittextChild"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="@string/txt_enter_your_motChild"
+          android:inputType="text"
+          android:maxLines="1"
+          android:text="@string/txt_motSourceChild" />
+    <Button
+        android:id="@+id/buttonRetourChild"
+      	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+         android:layout_marginRight="18dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/btnRetourChild" />
+     <Button
+        android:id="@+id/buttonTraduireChild"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/btnTraduireChild" />
+ 	</LinearLayout> 
+    </LinearLayout> 

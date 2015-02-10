@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">Translator</string>
+    <string name="action_settings">Settings</string>
+    
+ 	<!-- Activite Main -->    
+    <string name="txtAccueil">Appel d\'une activité de traduction</string>
+     <string name="txt_Titre1">Traduction français->anglais</string>
+ 	<string name="btnTraduire">Traduire</string>
+ 	<string name="msgToast1">Ouvrir l\'activité de traduction</string>
+	<string name="msgToast2">Reconnaissance vocale démarrée</string>
+	<string name="msgToast3">Reconnaissance vocale non supportée, évitez d\'acheter chinois !</string>
+	 <string name="msgToast4">"Traduction annulée.."</string>
+	  <string name="msgToast5">"Traduction du mot en anglais : %1$s"</string>
+ 	<string name="txt_enter_your_mot">Taper un mot à traduire</string>
+ 	<string name="txt_motSource">fabuleux</string>
+ 	<string name="btnReconnaitre">Reconnaissance vocale</string>
+	
+ 	
+ 	<!-- Activite child 1-->
+ 	  <string name="txtAccueilChild">Résultat de la traduction</string>
+     <string name="txt_Titre1Child">Traduction en anglais du mot </string>
+ 	<string name="btnTraduireChild">Lire la traduction</string>
+ 	<string name="txt_enter_your_motChild">Traduction en cours...</string>
+ 	<string name="txt_motSourceChild">Traduction en cours...</string>
+ 	<string name="btnRetourChild">Fermer le traducteur</string>
+ 	
+ 		<!-- Phrase TextToSpeech  -->
+ 	<string  name="phraseFormat">La traduction du mot %1$s est, %2$s</string> 	
+ 	<string  name="phraseFormatFR">La traduction du mot %1$s est </string> 
+ 		
+ 	
+ 		<!-- Phrase Etat Connexions Network -->
+ 	<string  name="wifiON">La connexion WIFI est à présent active</string> 	
+ 	<string  name="gsmON">La connexion GSM est à présent active</string>
+ 	<string  name="wifigsmOFF">Les connexions réseau sont à présent inactives</string> 	 
+</resources>

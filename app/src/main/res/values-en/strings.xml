@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Translator</string>
+    <string name="action_settings">Settings</string>
+    
+ 	<!-- Activite Main -->    
+    <string name="txtAccueil">Request a translation activity</string>
+     <string name="txt_Titre1">Translate french->english</string>
+ 	<string name="btnTraduire">Translate</string>
+ 	<string name="msgToast1">Open the translate activity </string>
+	<string name="msgToast2">Reconnaissance vocale démarrée</string>
+	<string name="msgToast3">Speech recognizer not supported, avoid buying Chinese !!!</string>
+  <string name="msgToast4">"Translation canceled.."</string>
+   <string name="msgToast5">"The english translation of the word: %1$s"</string>
+  	<string name="txt_enter_your_mot">Enter a word to translate</string>
+ 	<string name="txt_motSource">fabulous</string>
+ 	<string name="btnReconnaitre">Vocal recognizer</string>
+
+ 	
+ 	<!-- Activite child 1-->
+ 	  <string name="txtAccueilChild">Translation result</string>
+     <string name="txt_Titre1Child">English translation of the word </string>
+ 	<string name="btnTraduireChild">Read the translation</string>
+ 	<string name="txt_enter_your_motChild">Traduction en cours...</string>
+ 	<string name="txt_motSourceChild">Traduction en cours...</string>
+ 	<string name="btnRetourChild">Close the translator</string>
+ 	
+ 	<!-- Phrase TextToSpeech  -->
+ 	<string  name="phraseFormat">The translation of the word %1$s is, %2$s</string> 	
+</resources>
